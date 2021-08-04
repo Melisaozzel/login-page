@@ -1,0 +1,103 @@
+.banner-area
+{
+position: relative;
+background:  url("https://i.hizliresim.com/je5bwor.jpg") ;
+width: 100%;
+height: 100vh;
+background-size: cover;
+overflow: hidden;}
+
+.form-group{margin-bottom: 1rem;}
+.elements
+{
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.container_form
+{
+    
+background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    color: white;
+    border: 1px solid rgb(255, 255, 255) ;
+    padding: 30px 60px;
+    border-radius: 10px;
+    box-shadow: black;
+    backdrop-filter: blur(8px);
+}
+.formelements
+{
+  position: relative;
+  z-index: 2;
+}
+
+.nametext
+{
+visibility: hidden;
+    
+}
+.mailtext
+{
+    visibility: hidden;
+}
+.gsmtext
+{
+    visibility: hidden;
+}
+.gsmtext-error,.nametext-error
+{
+
+    display: inline-block;
+    margin-top: 1px;
+    color: #cebdbd;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 2px 3px;
+    visibility: visible;
+    border-radius: 8px;
+	border: 0.5px solid;
+}
+.mailtext-error
+{
+    
+    display: inline-block;
+    margin-top: 1px;
+    color: #cebdbd;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 2px 3px;
+    visibility: visible;
+    border-radius: 8px;
+	border: 0.5px solid ;
+}
+
+.logo
+{
+    position: relative ;
+    z-index: 2;
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.formelements
+{
+    position: relative;
+    z-index: 2;
+}
+.btn-1
+{
+    transition: ease-out 0.4s;
+    outline: none;
+}
+.btn-1:hover
+{
+    box-shadow: inset 500px 0 0 0 red;
+}
+.form-group-error
+{
+border-radius: 1px;
+border: red;
+}
